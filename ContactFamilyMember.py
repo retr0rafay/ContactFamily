@@ -26,7 +26,7 @@ client = Client(account_sid, auth_token)
 contact_to_call = random.choice(contacts_names)
 index_for_contact = contacts_names.index(contact_to_call)
 message = client.messages.create(
-    from_='+18305496084',
+    from_='++15555555555',
     body=f'You should call {contact_to_call} today. The number is {contacts_numbers[index_for_contact]}',
-    to='+17702352270'
+    to='+14444444444'
 )
