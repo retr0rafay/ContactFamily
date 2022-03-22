@@ -1,4 +1,14 @@
-import csv
+# In order to use this program, you must have a CSV file that contains the names and phone numbers of your friends and family. For example, I have the
+# name of the person in the first column and the enumber in the second column, so something like name,number and then you can fill the values in the columns.
+
+# You'll first need to create a Twilio trial account, and you should receive an account sid and auth token. Do not put it out in public (like how I did)
+# since people can steal them, but these current ones are expired so it's fine for now. 
+
+# You can host your PY and CSV files in a server, so for example I have it hosted on Python Anywhere. The server runs every day at about 1 PM EST since I
+# have it set up that way, but you can choose your own time on when you want this program run.
+
+# Have any questions? Reach out to me!
+
 from twilio.rest import Client
 import random
 
